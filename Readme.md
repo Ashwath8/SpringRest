@@ -2,7 +2,6 @@ This is a sample project demonstrating RESTful web service using Spring Boot and
 
 Control Flow Illustration
 
-RestController		ServiceProvider		Repository			Database
 userController <---> userService <---> userRepository <---> Derby Database
 
 UserController class hosts the RestController. It maps all the incoming HTTP requests to the appropriate service methods.
